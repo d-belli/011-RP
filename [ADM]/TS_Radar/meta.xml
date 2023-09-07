@@ -1,0 +1,109 @@
+<meta>
+    <oop>true</oop>
+    
+    <script type="shared" cache="false" src="scripts/global.lua"/>
+    
+    <script type="server" cache="false" src="scripts/server/s.exported.luac"/>
+
+    <script type="client" cache="false" src="scripts/client/c.utils.luac"/>
+    
+    <script type="client" cache="false" src="scripts/client/settings.lua"/>
+
+    <script type="client" cache="false" src="scripts/client/c.main.luac"/>
+    <script type="client" cache="false" src="scripts/client/c.gps.luac"/>
+    <script type="client" cache="false" src="scripts/client/c.map.luac"/>
+    <script type="client" cache="false" src="scripts/client/c.nodes.lua"/>
+    <script type="client" cache="false" src="scripts/client/c.path.luac"/>
+    <script type="client" cache="false" src="scripts/client/c.exported.luac"/>
+    
+    <file src="assets/map.png"/>
+
+    <file src="assets/blips/ammunation.png"/>
+    <file src="assets/blips/arrow.png"/>
+    <file src="assets/blips/atm.png"/>
+    <file src="assets/blips/cabare.png"/>
+    <file src="assets/blips/delegacia.png"/>
+    <file src="assets/blips/farmacia.png"/>
+    <file src="assets/blips/garagem.png"/>
+    <file src="assets/blips/hospital.png"/>
+    <file src="assets/blips/market.png"/>
+    <file src="assets/blips/mecanica.png"/>
+    <file src="assets/blips/posto.png"/>
+    <file src="assets/blips/shirt.png"/>
+    <file src="assets/blips/weed.png"/>
+    <file src="assets/blips/target.png"/>
+    
+    <file src='assets/blips/default/01.png'/>
+    <file src='assets/blips/default/02.png'/>
+    <file src='assets/blips/default/03.png'/>
+    <file src='assets/blips/default/04.png'/>
+    <file src='assets/blips/default/05.png'/>
+    <file src='assets/blips/default/06.png'/>
+    <file src='assets/blips/default/07.png'/>
+    <file src='assets/blips/default/08.png'/>
+    <file src='assets/blips/default/09.png'/>
+    <file src='assets/blips/default/10.png'/>
+    <file src='assets/blips/default/11.png'/>
+    <file src='assets/blips/default/12.png'/>
+    <file src='assets/blips/default/13.png'/>
+    <file src='assets/blips/default/14.png'/>
+    <file src='assets/blips/default/15.png'/>
+    <file src='assets/blips/default/16.png'/>
+    <file src='assets/blips/default/17.png'/>
+    <file src='assets/blips/default/18.png'/>
+    <file src='assets/blips/default/19.png'/>
+    <file src='assets/blips/default/20.png'/>
+    <file src='assets/blips/default/21.png'/>
+    <file src='assets/blips/default/22.png'/>
+    <file src='assets/blips/default/23.png'/>
+    <file src='assets/blips/default/24.png'/>
+    <file src='assets/blips/default/25.png'/>
+    <file src='assets/blips/default/26.png'/>
+    <file src='assets/blips/default/27.png'/>
+    <file src='assets/blips/default/28.png'/>
+    <file src='assets/blips/default/29.png'/>
+    <file src='assets/blips/default/30.png'/>
+    <file src='assets/blips/default/31.png'/>
+    <file src='assets/blips/default/32.png'/>
+    <file src='assets/blips/default/33.png'/>
+    <file src='assets/blips/default/34.png'/>
+    <file src='assets/blips/default/35.png'/>
+    <file src='assets/blips/default/36.png'/>
+    <file src='assets/blips/default/37.png'/>
+    <file src='assets/blips/default/38.png'/>
+    <file src='assets/blips/default/39.png'/>
+    <file src='assets/blips/default/40.png'/>
+    <file src='assets/blips/default/41.png'/>
+    <file src='assets/blips/default/42.png'/>
+    <file src='assets/blips/default/43.png'/>
+    <file src='assets/blips/default/44.png'/>
+    <file src='assets/blips/default/45.png'/>
+    <file src='assets/blips/default/46.png'/>
+    <file src='assets/blips/default/47.png'/>
+    <file src='assets/blips/default/48.png'/>
+    <file src='assets/blips/default/49.png'/>
+    <file src='assets/blips/default/50.png'/>
+    <file src='assets/blips/default/51.png'/>
+    <file src='assets/blips/default/52.png'/>
+    <file src='assets/blips/default/53.png'/>
+    <file src='assets/blips/default/54.png'/>
+    <file src='assets/blips/default/55.png'/>
+    <file src='assets/blips/default/56.png'/>
+    <file src='assets/blips/default/57.png'/>
+    <file src='assets/blips/default/58.png'/>
+    <file src='assets/blips/default/59.png'/>
+    <file src='assets/blips/default/60.png'/>
+    <file src='assets/blips/default/61.png'/>
+    <file src='assets/blips/default/62.png'/>
+    <file src='assets/blips/default/63.png'/>
+    <file src='assets/blips/default/down.png'/>
+    <file src='assets/blips/default/square.png'/>
+    <file src='assets/blips/default/up.png'/>
+
+    <export type="shared" function="SetPath"/>
+    <export type="shared" function="CreateBlip"/>
+    <export type="shared" function="ToggleGPS"/>
+    <export type="shared" function="ToggleMap"/>
+
+    <min_mta_version client="1.5.7-9.20447" server="1.5.4-9.11413"></min_mta_version>
+</meta>
