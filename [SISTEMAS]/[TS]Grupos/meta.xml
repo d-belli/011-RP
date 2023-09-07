@@ -1,0 +1,63 @@
+<meta>
+    <oop>true</oop>
+    <script src = 'Config.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'Client.luac' type = 'client' cache = 'false'/>
+    <script src = 'Server.luac' type = 'server' cache = 'false'/> 
+	
+    <!--Imagens-->	
+    <file src = 'files/gfx/1.png'/>	
+    <file src = 'files/gfx/2.png'/>	
+    <file src = 'files/gfx/3.png'/>	
+    <file src = 'files/gfx/4.png'/>	
+    <file src = 'files/gfx/5.png'/>	
+    <file src = 'files/gfx/6.png'/>	
+    <file src = 'files/gfx/7.png'/>	
+    <file src = 'files/gfx/8.png'/>	
+    <file src = 'files/gfx/9.png'/>	
+    <file src = 'files/gfx/10.png'/>	
+    <file src = 'files/gfx/11.png'/>	
+    <file src = 'files/gfx/12.png'/>	
+    <file src = 'files/gfx/13.png'/>	
+    <file src = 'files/gfx/14.png'/>	
+    <file src = 'files/gfx/15.png'/>	
+    <file src = 'files/gfx/16.png'/>	
+    <file src = 'files/gfx/17.png'/>	
+    <file src = 'files/gfx/18.png'/>	
+    <file src = 'files/gfx/19.png'/>	
+    <file src = 'files/gfx/20.png'/>	
+    <file src = 'files/gfx/21.png'/>	
+    <file src = 'files/gfx/22.png'/>	
+    <file src = 'files/gfx/23.png'/>	
+    <file src = 'files/gfx/24.png'/>	
+    <file src = 'files/gfx/25.png'/>	
+    <file src = 'files/gfx/26.png'/>	
+    <file src = 'files/gfx/27.png'/>	
+    <file src = 'files/gfx/28.png'/>	
+    <file src = 'files/gfx/29.png'/>	
+    <file src = 'files/gfx/30.png'/>	
+    <file src = 'files/gfx/31.png'/>	
+    <file src = 'files/gfx/32.png'/>	
+    <file src = 'files/gfx/33.png'/>	
+    <file src = 'files/gfx/34.png'/>	
+    <file src = 'files/gfx/35.png'/>	
+    <file src = 'files/gfx/36.png'/>	
+    <file src = 'files/gfx/37.png'/>	
+    <file src = 'files/gfx/home.png'/>	
+    <file src = 'files/gfx/members.png'/>	
+    <file src = 'files/gfx/balance.png'/>
+	
+    <file src = 'files/grupos/logo.png'/>	
+
+    <!--Logo dos grupos-->
+    <file src = 'files/grupos/yakuza.png'/>	
+    <file src = 'files/grupos/pmesp.png'/>	
+	
+    <!--Fonts-->			
+    <file src = 'files/fonts/Poppins-Bold.ttf'/>	
+    <file src = 'files/fonts/Poppins-Medium.ttf'/>	
+    <file src = 'files/fonts/Poppins-Regular.ttf'/>	
+    <file src = 'files/fonts/Poppins-SemiBold.ttf'/>	
+
+    <!-- Versão -->
+    <min_mta_version server="1.5.4-9.11413" />	
+</meta>
