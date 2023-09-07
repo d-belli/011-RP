@@ -1,0 +1,20 @@
+<meta>
+<!-- Outros -->
+	 <script src="assets/dxEditBox.lua" type="client" cache="false"/>
+	 <script src="assets/dxGridlists.lua" type="client" cache="false"/>
+
+<!-- Script -->
+     <script src="zoinC.lua" type="client" cache="false"/>
+     <script src="zoinS.lua" type="server" cache="false"/>
+	 <script src="zoinedit.lua" type = 'shared' />
+
+<!-- Fonts -->
+	 <file src="fonts/font.ttf" cache ="false" />
+
+<!-- Files -->
+	 <file src="assets/buton.png" cache ="false" />
+	 <file src="assets/logo.png" cache ="false" />
+
+	<info author="zoin" type="misc" version="1.5.4-9.11413" />
+    <min_mta_version server="1.5.4-9.11413" client="1.5.4-9.11413"/> 
+</meta>
