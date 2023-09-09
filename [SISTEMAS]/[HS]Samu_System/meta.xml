@@ -1,0 +1,49 @@
+<meta>
+    
+    <oop>true</oop>
+
+    <info author = '[HS]Neto' version = '1.0' name = 'Sistema de resgate desenvolvido para a pronta entrega na hyper scripts - 06/04/2023' description = 'www.hyperscripts.com.br' />
+    
+    <!-- Arquivos -->
+    
+    <script src = 'Hyper_G.lua' type = 'shared' cache = 'false'/>
+    <script src = 'nui/main/Hyper_U.lua' type = 'client' cache = 'false'/>    
+    <script src = 'nui/main/Hyper_C.lua' type = 'client' cache = 'false'/>  
+    <script src = 'nui/main/Hyper_S.lua' type = 'server' /> 
+    
+    <!-- Fonts-->
+    
+    <file src = 'nui/fonts/Montserrat-Itali-Bold.ttf' cache = 'false' />
+    <file src = 'nui/fonts/Montserrat-Bold.ttf' cache = 'false' />
+
+    <!-- Interface -->
+
+    <file src = 'nui/interface/prancheta.png' cache = 'false' />
+    <file src = 'nui/interface/icon_user.png' cache = 'false' />
+    <file src = 'nui/interface/icon_prancheta.png' cache = 'false' />
+    <file src = 'nui/interface/icon_medic.png' cache = 'false' />
+    <file src = 'nui/interface/icon_estado.png' cache = 'false' />
+    <file src = 'nui/interface/box_select.png' cache = 'false' />
+    <file src = 'nui/interface/box_no_select.png' cache = 'false' />
+    <file src = 'nui/interface/logo_medical.png' cache = 'false' />
+
+    <!-- FX -->
+
+    <file src = 'nui/fx/blackwhite.fx' cache = 'false' />
+
+    <!-- Sounds -->
+
+    <file src = 'nui/sound/remedio.mp3' cache = 'false' />
+
+    <!-- Exports -->
+    
+    <export function = 'setPlayerHelp' type = 'server' />
+    <export function = 'setPlayerResgate' type = 'server' />
+    <export function = 'tratamento' type = 'server' />
+    <export function = 'deitar' type = 'server' />
+
+    <!-- Versão -->
+
+    <min_mta_version server = '1.5.8-9.20979' ></min_mta_version>
+
+</meta>
