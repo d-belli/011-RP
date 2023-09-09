@@ -30,7 +30,7 @@ Hyper_Config = {
           ['set:plotting'] = {acl = true, elementData = {data = 'HS:plotting', verify = false}};
      };
      ['models:config'] = {
-          {permision = {'Console'}; model = 490; plotting = 'nui/plots/ranger-pmerj.png'};
+          {permision = {'Padrao'}; model = 490; plotting = 'nui/plots/ranger-pmerj.png'};
           {permision = {'Console'}; model = 490; plotting = 'nui/plots/ranger-prf.png'};
           {permision = {'Console'}; model = 602; plotting = 'nui/plots/CorollaPcerj.png'};
           {permision = {'Console'}; model = 602; plotting = 'nui/plots/CorollaPmesp.png'};

@@ -1,0 +1,59 @@
+<meta>
+    
+    <info author = '[HS]Neto' version = '1.0' name = 'Sistema de interação - Hyper Scripts' description = 'www.hyperscripts.com.br' />
+    
+    <!-- Arquivos -->
+    
+    <script src = 'Hyper_G.lua' type = 'shared' cache = 'false'/>
+    <script src = 'nui/main/Hyper_U.lua' type = 'client' cache = 'false'/>    
+    <script src = 'nui/main/Hyper_C.lua' type = 'client' cache = 'false'/>  
+    <script src = 'nui/main/Hyper_S.lua' type = 'server'/> 
+    <script src = 'functions.lua' type = 'server'/> 
+    
+    <!-- Fonts-->
+    
+    <file src = 'nui/fonts/Montserrat-Itali-Bold.ttf' cache = 'false' />
+    <file src = 'nui/fonts/Montserrat-Bold.ttf' cache = 'false' />
+
+    <!-- Interface -->
+
+    <file src = 'nui/interface/circle.png' cache = 'false' />
+    <file src = 'nui/interface/arrow.png' cache = 'false' />
+
+    <!-- Icons -->
+
+    <file src = 'nui/icons/trunk.png' cache = 'false' />
+    <file src = 'nui/icons/key.png' cache = 'false' />
+    <file src = 'nui/icons/money.png' cache = 'false' />
+    <file src = 'nui/icons/engine.png' cache = 'false' />
+    <file src = 'nui/icons/health.png' cache = 'false' />
+    <file src = 'nui/icons/search.png' cache = 'false' />
+    <file src = 'nui/icons/handcuff.png' cache = 'false' />
+    <file src = 'nui/icons/remove.png' cache = 'false' />
+    <file src = 'nui/icons/agarrar.png' cache = 'false' />
+    <file src = 'nui/icons/tablet.png' cache = 'false' />
+    <file src = 'nui/icons/light.png' cache = 'false' />
+    <file src = 'nui/icons/robbery.png' cache = 'false' />
+    <file src = 'nui/icons/box.png' cache = 'false' />
+    <file src = 'nui/icons/bi_bandaid.png' cache = 'false' />
+
+    <!-- Sfx -->
+
+    <file src = 'nui/sfx/select.mp3' cache = 'false' />
+    <file src = 'nui/sfx/mouse.mp3' cache = 'false' />
+
+    <!-- Exports -->
+
+    <export function = 'close_circle' type = 'client' />
+
+    <!-- Incluide -->
+
+    <include resource = '[HS]Outline'/>
+    <include resource = '[HS]Box_Confirmation'/>
+    <include resource = '[HS]circle_progress'/>
+
+    <!-- Versão -->
+
+    <min_mta_version server = '1.5.8-9.20979' ></min_mta_version>
+
+</meta>

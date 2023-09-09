@@ -1,0 +1,49 @@
+<meta>
+    
+    <oop>true</oop>
+
+    <info author = '[HS]Neto' version = '1.0' name = 'Sistema de gerenciador - Hyper Scripts' description = 'www.hyperscripts.com.br' />
+    
+    <!-- Arquivos -->
+    
+    <script src = 'Hyper_G.lua' type = 'shared' cache = 'false'/>
+    <script src = 'nui/source/Hyper_U.lua' type = 'client' cache = 'false'/>    
+    <script src = 'nui/source/Hyper_C.lua' type = 'client' cache = 'false'/>  
+    <script src = 'nui/source/Hyper_S.lua' type = 'server' /> 
+    <script src = 'functions.lua' type = 'server' /> 
+    
+    <!-- Fonts -->
+    
+    <file src = 'nui/fonts/Montserrat-Itali-Bold.ttf' cache = 'false' />
+    <file src = 'nui/fonts/Montserrat-Bold.ttf' cache = 'false' />
+    
+    <!-- Interface -->
+    
+    <file src = 'nui/interface/background.png' cache = 'false' />
+    <file src = 'nui/interface/background_password.png' cache = 'false' />
+    <file src = 'nui/interface/selects.png' cache = 'false' />
+    <file src = 'nui/interface/status_rounded.png' cache = 'false' />
+    <file src = 'nui/interface/select_grid.png' cache = 'false' />
+    <file src = 'nui/interface/icon_folder.png' cache = 'false' />
+    <file src = 'nui/interface/icon_user.png' cache = 'false' />
+    <file src = 'nui/interface/icon_lock.png' cache = 'false' />
+    <file src = 'nui/interface/icon_bar.png' cache = 'false' />
+    <file src = 'nui/interface/icon_status.png' cache = 'false' />
+    <file src = 'nui/interface/icon_clock.png' cache = 'false' />
+    <file src = 'nui/interface/icon_veh.png' cache = 'false' />
+    <file src = 'nui/interface/icon_gun.png' cache = 'false' />
+    <file src = 'nui/interface/icon_shirt.png' cache = 'false' />
+    <file src = 'nui/interface/icon_member.png' cache = 'false' />
+    <file src = 'nui/interface/icon_search.png' cache = 'false' />
+    <file src = 'nui/interface/button_select.png' cache = 'false' />
+    <file src = 'nui/interface/button_select2.png' cache = 'false' />
+    <file src = 'nui/interface/button_back.png' cache = 'false' />
+    <file src = 'nui/interface/button_back2.png' cache = 'false' />
+    <file src = 'nui/interface/button_1.png' cache = 'false' />
+    <file src = 'nui/interface/button_2.png' cache = 'false' /> 
+
+    <!-- Versão -->
+
+    <min_mta_version server = '1.5.8-9.20979' ></min_mta_version>
+
+</meta>

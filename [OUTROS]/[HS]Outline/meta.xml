@@ -1,0 +1,24 @@
+<meta>    
+
+    <script src = 'Hyper_C.lua' type = 'client' cache = 'false' />
+
+    <!-- Files -->
+
+    <file src = 'files/fx/edge.fx' cache = 'false' />
+	<file src = 'files/fx/wall.fx' cache = 'false' />
+	<file src = 'files/fx/wall_mrt.fx' cache = 'false' />
+    <file src = 'files/shader.fx' cache = 'false' />
+
+    <!-- Exports -->
+
+    <export function = 'createEffect' type = 'client' />
+    <export function = 'destroyEffect' type = 'client' />
+    <export function = 'disableEffect' type = 'client' />
+    <export function = 'enableEffect' type = 'client' />
+    <export function = 'getEffectEnable' type = 'client' />
+
+    <!-- Versão -->
+
+    <min_mta_version client = '1.5.7' />
+
+</meta>

@@ -1,0 +1,30 @@
+<meta>
+
+    <oop>true</oop>
+    
+    <script src = 'Hyper_G.lua' type = 'shared' cache = 'false' />
+    <script src = 'files/source/Hyper_C.lua' type = 'client' cache = 'false' />
+    <script src = 'files/source/Hyper_S.lua' type = 'server' />
+
+    <!-- Fonts -->
+    
+    <file src = 'files/fonts/Roboto.ttf'/>
+    <file src = 'files/fonts/RobotoBold.ttf'/>
+    
+    <!-- Interface -->
+    
+    <file src = 'files/interface/info.png' cache = 'false'/>
+    <file src = 'files/interface/error.png' cache = 'false'/>
+    <file src = 'files/interface/warning.png' cache = 'false'/>
+    <file src = 'files/interface/success.png' cache = 'false'/>
+    <file src = 'files/interface/section.png' cache = 'false'/>
+
+    <!-- Exports -->
+    
+    <export function = 'notify' type = 'shared' />
+    
+    <!-- Versão -->
+
+    <min_mta_version client = '1.5.8-9.20979'> </min_mta_version>
+
+</meta>

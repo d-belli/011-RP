@@ -1,0 +1,19 @@
+<meta>
+
+    <info author = '!𝓝𝓮𝓽𝓸𝕺𝖓#7777' version = '1.0' name = 'circle progress' description = 'sistema de progressbar desenvolvido pela - www.hyperscripts.com.br'/>
+
+    <script src = 'Hyper_G.lua' type = 'shared' cache = 'false' />
+    <script src = 'src/core/Hyper_U.lua' type = 'client' cache = 'false'/>
+    <script src = 'src/core/Hyper_C.lua' type = 'client' cache = 'false'/>
+    <script src = 'src/core/Hyper_S.lua' type = 'server' />
+
+    <!-- Fonts-->
+    
+    <file src = 'src/fonts/Montserrat-Itali-Bold.ttf' cache = 'false' />
+    <file src = 'src/fonts/Montserrat-Bold.ttf' cache = 'false' />
+
+    <!-- Exports -->
+
+    <export function = 'setProgress' type = 'server' />
+
+</meta>
