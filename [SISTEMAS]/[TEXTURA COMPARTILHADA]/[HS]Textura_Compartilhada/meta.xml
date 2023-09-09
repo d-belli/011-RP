@@ -1,0 +1,32 @@
+<meta>
+
+     <oop>true</oop>
+
+     <info author = '[HS]Neto' version = '2.0' name = 'Sistema Textura Compartilhada' description = 'www.hyperscripts.com.br'/>
+
+     <script src = 'Hyper_G.lua' type = 'shared' />
+     <script src = 'nui/source/Hyper_S.lua' type = 'server' />
+     <script src = 'nui/source/Hyper_C.lua' type = 'client' cache = 'false' />
+
+     <!-- Plots -->
+
+     <file src = 'nui/plots/ranger-pmerj.png' cache = 'false' />
+     <file src = 'nui/plots/ranger-prf.png' cache = 'false' />
+
+     <file src = 'nui/plots/CorollaPcerj.png' cache = 'false' />
+     <file src = 'nui/plots/CorollaPmesp.png' cache = 'false' />
+
+     <file src = 'nui/plots/HeliBope.png' cache = 'false' />
+     <file src = 'nui/plots/HeliEB.png' cache = 'false' />
+
+     <file src = 'nui/plots/ranger-pmerj.png' cache = 'false' />
+     <file src = 'nui/plots/ranger-prf.png' cache = 'false' />
+
+     <file src = 'nui/plots/XtPmerj.png' cache = 'false' />
+     <file src = 'nui/plots/Xtpmesp.png' cache = 'false' />
+
+     <!-- Versão -->
+
+     <min_mta_version server = '1.5.8-9.20979'> </min_mta_version>
+
+</meta>
