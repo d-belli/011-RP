@@ -1,0 +1,27 @@
+<meta>
+    <!-- POO Function -->
+	<min_mta_version server="1.6.0" />
+    <oop>true</oop>
+
+    <!-- Config -->
+    <script src="config.lua" type="shared" cache="false" />
+
+    <!-- Utils -->
+    <script src="arquivos/Trust-C.luac" type="client" cache="false" />
+    <script src="arquivos/Trust-S.luac" type="server" />
+    <map src="arquivos/removedor.map" dimension="-1"></map>
+
+	<!-- Arquivos - IV -->
+    <file src="arquivos/models/iv/detrandff.iv" />
+    <file src="arquivos/models/iv/detrancol.iv" />
+
+    <!-- Arquivos - Models -->
+	<file src="arquivos/models/texturas.txd" />
+	<file src="arquivos/models/detran.dff_encrypted" />
+	<file src="arquivos/models/detran.col_encrypted" />
+
+
+    <download_priority_group>200</download_priority_group>
+
+
+</meta>
