@@ -1,5 +1,0 @@
-<meta>
-    <info author="Neextel" version="1.0" name="[N] Salario" description="Essa resource da salário para acls expecificas." />
-    <script src="gNeextel.lua" type="shared" />
-    <script src="sNeextel.lua" type="server" />
-</meta>

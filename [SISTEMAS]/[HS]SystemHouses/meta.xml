@@ -1,0 +1,53 @@
+<meta>
+
+<info author="[HS]Neto" version="30/06/2022" name="System Houses" description="www.hyperscripts.com.br"/>
+
+<oop>true</oop>
+
+<script src="Hyper_G.lua" type="shared"/>    
+<script src="nui/main/Hyper_S.lua" type="server" cache = "false"/>   
+<script src="nui/main/Hyper_C.lua" type="client" cache = "false"/>   
+
+
+<!-- Font -->
+
+<file src="nui/fonts/HyperFont.ttf" cache="false"/>
+
+<!-- Sound -->
+
+<file src="nui/sounds/open.mp3" cache="false"/>
+
+<!-- Interfaces -->
+
+<file src="nui/interface/house.png" cache="false"/>
+<file src="nui/interface/houses.png" cache="false"/>
+<file src="nui/interface/logout.png" cache="false"/>
+<file src="nui/interface/select.png" cache="false"/>
+<file src="nui/interface/circle.png" cache="false"/>
+<file src="nui/interface/quadrado.png" cache="false"/>
+<file src="nui/interface/Settings.png" cache="false"/>
+<file src="nui/interface/Lock.png" cache="false"/>
+<file src="nui/interface/unlock.png" cache="false"/>
+<file src="nui/interface/door.png" cache="false"/>
+<file src="nui/interface/sell.png" cache="false"/>
+<file src="nui/interface/key.png" cache="false"/>
+<file src="nui/interface/iptu.png" cache="false"/>
+<file src="nui/interface/user.png" cache="false"/>
+<file src="nui/interface/imobiliaria.png" cache="false"/>
+
+<!-- Casas Images -->
+
+<file src="nui/casas/magdog1.png" cache="false"/>
+<file src="nui/casas/magdog2.png" cache="false"/>
+<file src="nui/casas/magdog3.png" cache="false"/>
+
+<!-- Exports -->
+
+<export function = "GiveHouses" type = "server" />
+<export function = "getPlayerHouses" type = "server" />
+
+<!-- Versão -->
+
+<min_mta_version server="1.5.4-9.11413" />
+
+</meta>
